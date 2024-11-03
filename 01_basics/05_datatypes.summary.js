@@ -31,3 +31,16 @@ const myFunction = function(){
 }
 
 console.log(typeof bignumber);
+
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  stack (primitive), Heap (Non-Primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+
+console.log(anothername);
